@@ -1,0 +1,14 @@
+header {
+  margin: 0px;
+}
+
+.block {
+  color: red;
+}
+
+@media (max-width: 767px) {
+  .block {
+    color: green;
+    margin: 0px 0px px 0px;
+  }
+}
